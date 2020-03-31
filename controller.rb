@@ -8,7 +8,7 @@ get '/' do
   erb(:home)
 end
 
-get '/rules' do
+get '/how to play' do
   erb(:rules)
 end
 

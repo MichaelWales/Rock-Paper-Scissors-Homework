@@ -14,7 +14,7 @@ class Game
     elsif hand1 == "rock" && hand2 == "paper"
       return "Player 2 Wins with #{hand2}!"
     elsif hand1 || hand2 == "PLAYER_1" || "PLAYER_2"
-      return "umm...you might want to read the rules?"
+      return "umm...you might want to read how to play?"
     else
       return "a draw!"
     end
